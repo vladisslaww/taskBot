@@ -1,0 +1,18 @@
+{
+  "name": "send_task_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vladisslaww <vladisslaww@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.20",
+    "query-string": "^6.4.2",
+    "telegraf": "^3.27.1"
+  }
+}
