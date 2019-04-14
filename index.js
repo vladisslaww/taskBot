@@ -123,6 +123,8 @@ async function addTask (ctx) {
       trello.addCard(task, null, user.listID)
         .then(res => {
           ctx.reply('The task has been added');
+          trello.addMemberToCard(res.data.id, user.trelloID)
+            .catch( e => console.log(e) );
         })
 
     })
