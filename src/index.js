@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf');
 const Markup = require('telegraf/markup');
 const mongoose = require('mongoose');
-const User = require('./lib/User');
+const User = require('../lib/User');
 require("dotenv").config();
 const Trello = require('./Trello');
 

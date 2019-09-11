@@ -1,8 +1,6 @@
 const axios = require('axios');
 const _ = require('lodash/core');
 const queryString = require('query-string');
-const OAuth = require('oauth').OAuth;
-
 
 module.exports = class Trello
 {
